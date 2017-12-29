@@ -1,0 +1,27 @@
+<?xml version=\"1.0\" encoding=\"utf-8\"?>
+<!-- filename: deepspeech.xml -->
+<component>
+	<name>org.freedesktop.IBus.DeepSpeech</name>
+	<description>DeepSpeech Speech Recognition Component</description>
+	<exec>${libexecdir}/ibus-engine-deepspeech --ibus</exec>
+	<version>@VERSION@</version>
+	<author>Mike Sheldon &lt;elleo@gnu.org&gt;</author>
+	<license>GPL</license>
+	<homepage>https://github.com/Elleo/ibus-deepspeech</homepage>
+	<textdomain>ibus-deepspeech</textdomain>
+
+	<engines>
+		<engine>
+			<name>deepspeech</name>
+			<language>en</language>
+			<license>GPL</license>
+			<author>Mike Sheldon &lt;elleo@gnu.org&gt;</author>
+			<icon>${pkgdatadir}/icons/ibus-deepspeech.svg</icon>
+			<layout>us</layout>
+			<longname>DeepSpeech</longname>
+			<description>Speech Recognition Input Method</description>
+			<rank>0</rank>
+		</engine>
+	</engines>
+
+</component>
