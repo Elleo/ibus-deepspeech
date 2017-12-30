@@ -3,6 +3,8 @@ Section: utils
 Priority: optional
 Maintainer: Michael Sheldon <elleo@gnu.org>
 Build-Depends: build-essential,
+               libglib2.0-dev,
+               libibus-1.0-dev,
                debhelper (>= 9),
 Standards-Version: 3.9.5
 Homepage: https://github.com/Elleo/ibus-deepspeech
